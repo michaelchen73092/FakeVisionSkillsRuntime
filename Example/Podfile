@@ -1,0 +1,6 @@
+use_frameworks!
+target 'FakeVisionSkillsRuntime_Tests' do
+  pod 'FakeVisionSkillsRuntime', :path => '../'
+  
+  
+end
