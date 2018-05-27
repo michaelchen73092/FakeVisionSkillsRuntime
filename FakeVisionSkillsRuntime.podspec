@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FakeVisionSkillsRuntime'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'Fake Vision Skills Runtime Framework'
   s.description      = <<-DESC
 The base vision skill framework of all vision skills.
@@ -25,13 +25,15 @@ The base vision skill framework of all vision skills.
   }
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'FakeVisionSkillsRuntime/Classes/**/*'
+  s.source_files = '**'
   
   # s.resource_bundles = {
   #   'FakeVisionSkillsRuntime' => ['FakeVisionSkillsRuntime/Assets/*.png']
   # }
 
-   s.public_header_files = 'FakeVisionSkillsRuntime.framework/Headers/VisionSkillsRuntime.h'
+  #  s.public_header_files = [
+  #   'FakeVisionSkillsRuntime.framework/Headers/VisionSkillsRuntime.h'
+  # ]
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
