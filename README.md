@@ -1,6 +1,5 @@
 # FakeVisionSkillsRuntime
 
-[![CI Status](https://img.shields.io/travis/Wei-Chih Chen/FakeVisionSkillsRuntime.svg?style=flat)](https://travis-ci.org/Wei-Chih Chen/FakeVisionSkillsRuntime)
 [![Version](https://img.shields.io/cocoapods/v/FakeVisionSkillsRuntime.svg?style=flat)](https://cocoapods.org/pods/FakeVisionSkillsRuntime)
 [![License](https://img.shields.io/cocoapods/l/FakeVisionSkillsRuntime.svg?style=flat)](https://cocoapods.org/pods/FakeVisionSkillsRuntime)
 [![Platform](https://img.shields.io/cocoapods/p/FakeVisionSkillsRuntime.svg?style=flat)](https://cocoapods.org/pods/FakeVisionSkillsRuntime)

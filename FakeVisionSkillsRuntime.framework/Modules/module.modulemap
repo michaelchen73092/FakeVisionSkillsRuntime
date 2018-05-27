@@ -1,0 +1,6 @@
+framework module FakeVisionSkillsRuntime {
+  umbrella header "FakeVisionSkillsRuntime.h"
+
+  export *
+  module * { export * }
+}
