@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FakeVisionSkillsRuntime'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = 'Fake Vision Skills Runtime Framework'
   s.description      = <<-DESC
 The base vision skill framework of all vision skills.
@@ -21,10 +21,10 @@ The base vision skill framework of all vision skills.
   s.source           = { 
     :git => 'https://github.com/michaelchen73092/FakeVisionSkillsRuntime.git', 
     :branch => 'master',
-    :tag => "0.3.0"
+    :tag => 'v#{s.version}'
   }
+  s.ios.vendored_frameworks = 'FakeVisionSkillsRuntime.framework'
   s.ios.deployment_target = '10.0'
-
   s.source_files = '**'
   
   # s.resource_bundles = {
